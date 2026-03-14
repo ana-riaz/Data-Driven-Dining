@@ -1,5 +1,6 @@
 # Data Driven Dining
 
+
 > **AI-Driven Marketing · Customer Profiling & Churn Prediction**
 > End-to-end analytics pipeline that transforms raw restaurant POS data into actionable customer intelligence — with an AI-powered personalised email generator running fully locally via **Llama 3.2 (Ollama)**.
 
@@ -40,7 +41,7 @@ This project analyses real restaurant transaction data across four phases to pro
 ---
 
 ### AI Email Generator (Llama 3.2 via Ollama)
-![Personalised AI-Powered Retention Email Generator](assets/demo.mp4)
+![Personalised AI-Powered Retention Email Generator](assets/ss_email.png)
 
 ---
 
@@ -55,34 +56,6 @@ This project analyses real restaurant transaction data across four phases to pro
 | AI / LLM | Llama 3.2 via Ollama (OpenAI-compatible API) |
 
 ---
-
-## Run Locally
-
-**Prerequisites:** Python 3.10+, [Ollama](https://ollama.com) installed and running.
-
-```bash
-# 1. Clone
-git clone https://github.com/<your-username>/data-driven-dining.git
-cd data-driven-dining
-
-# 2. Create venv & install deps
-python -m venv .venv
-.venv\Scripts\activate        # Windows
-pip install streamlit plotly pandas numpy scikit-learn openpyxl openai
-
-# 3. Pull the model
-ollama pull llama3.2
-
-# 4. Place data files
-
-# 5. Launch
-streamlit run app.py
-```
-
-Open **http://localhost:8501** in your browser.
-
----
-
 
 ## Churn Segments & Retention Logic
 
