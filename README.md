@@ -74,8 +74,6 @@ pip install streamlit plotly pandas numpy scikit-learn openpyxl openai
 ollama pull llama3.2
 
 # 4. Place data files
-#    data/task1/Marketing_data.csv
-#    data/task1/MenuData.xlsx
 
 # 5. Launch
 streamlit run app.py
@@ -85,19 +83,6 @@ Open **http://localhost:8501** in your browser.
 
 ---
 
-## Project Structure
-
-```
-data-driven-dining/
-├── app.py                          # Streamlit dashboard (single page)
-├── EDA and Churn Prediction.ipynb  # Original analysis notebook
-├── assets/                         # UI screenshots
-└── data/task1/                     # Raw data (not tracked in git)
-    ├── Marketing_data.csv
-    └── MenuData.xlsx
-```
-
----
 
 ## Churn Segments & Retention Logic
 
