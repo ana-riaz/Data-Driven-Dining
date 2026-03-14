@@ -17,31 +17,30 @@ This project analyses real restaurant transaction data across four phases to pro
 | **IV – Churn Prediction** | RFM features (Recency, Frequency, Order Trend) → KMeans (k=4) → Regular / Occasional / New / Lost |
 
 ---
-
 ## Dashboard Snapshots
 
 ### Hero & KPI Metrics
-![Hero and KPI metrics](assets/ss_hero.png)
+![Hero and KPI metrics](assets/ss_dashboard.png)
 
 ---
 
 ### Spending Patterns & Order Timing
-![Spending distribution and hourly order patterns](assets/ss_patterns.png)
+![Spending distribution and hourly order patterns](assets/ss_spending.png)
 
 ---
 
 ### Menu Intelligence — Top Items & Categories
-![Best-selling items and category breakdown](assets/ss_menu.png)
+![Best-selling items and category breakdown](assets/ss_menuPatterns.png)
 
 ---
 
 ### Churn Segmentation — RFM Clusters
-![Customer segments, PCA cluster map and retention strategies](assets/ss_churn.png)
-
+![Customer segments, PCA cluster map and retention strategies](assets/ss_churnAnalytics.png)
+![rfm](assets/ss_trends.png)
 ---
 
 ### AI Email Generator (Llama 3.2 via Ollama)
-![Personalised AI email generator](assets/ss_email.png)
+![Personalised AI-Powered Retention Email Generator](assets/demo.mp4)
 
 ---
 

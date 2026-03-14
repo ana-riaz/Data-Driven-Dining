@@ -10,4 +10,4 @@ __pycache__
 .streamlit/cache
 # VSCode settings
 .vscode/
-
+/assets
